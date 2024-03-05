@@ -28,7 +28,7 @@ const App = () => {
 
   const sendOtp = async () => {
     try {
-      // const response = await axios.post('http://localhost:3001/api/send-otp', { name, email });
+      const response = await axios.post('http://localhost:3001/api/send-otp', { name, email });
       setMessage(response.data.message);
     } catch (error) {
       setError(error.response?.data?.error || 'An error occurred while sending OTP.');
@@ -37,7 +37,7 @@ const App = () => {
   
   const verifyOtp = async () => {
     try {
-      // const response = await axios.post('http://localhost:3001/api/verify-otp', { email, otp: otp.trim() });
+      const response = await axios.post('http://localhost:3001/api/verify-otp', { email, otp: otp.trim() });
       setMessage(response.data.message);
       setShowPopup(true);
     } catch (error) {
