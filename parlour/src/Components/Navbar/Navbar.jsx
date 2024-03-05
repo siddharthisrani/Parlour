@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import myimg from "./newlogo.png";
+// import myimg from "./newlogo.png";
 const Navbar = () => {
   return (
     <>
@@ -30,13 +30,13 @@ const Navbar = () => {
             <a href="#home">
               <h1 class="logo m-4 mt-1 pt-1" style={{ fontSize: "2.5vmax" }}>
                 {/* <span style={{ color: "#fff" }}>Expert</span>Riders */}
-                <img
+                {/* <img
                   src={myimg}
                   alt=""
                   height="auto"
                   width="200px"
                   id="logobike"
-                />
+                /> */}
               </h1>
             </a>
           </div>

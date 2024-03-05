@@ -6,7 +6,7 @@ const Footer = () => {
         <div class="container">
           <footer class="py-5">
             <hr />
-            <p class="text-center ">© 2022 Power Zone</p>
+            <p class="text-center ">© 2024 All right reserved</p>
           </footer>
         </div>
       </section>
