@@ -25,7 +25,7 @@ const About = () => {
                 <h2>Best Parlour in Bhopal </h2>
                 <br />
                 <p class="">
-                "At Jyoti's Makeover Studio, we craft more than just styles; we curate experiences that celebrate your unique beauty. Our dedicated team believes in empowering each woman to embrace her individuality with confidence. Step into a world where passion meets expertise, and let us enhance your natural radiance. Discover the allure of personalized care and redefine your beauty journey with us. Welcome to a space where beauty meets empowerment, and every visit is a celebration of you."
+                "At Jyoti's Makeover Studio we craft more than just styles; we curate experiences that celebrate your unique beauty. Our dedicated team believes in empowering each woman to embrace her individuality with confidence. Step into a world where passion meets expertise, and let us enhance your natural radiance. Discover the allure of personalized care and redefine your beauty journey with us. Welcome to a space where beauty meets empowerment, and every visit is a celebration of you."
                 </p>
                 <div class="row text-center">
                   <div class="col-md-4 col-sm-4 col-lg-4">
